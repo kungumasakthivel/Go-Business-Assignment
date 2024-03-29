@@ -66,7 +66,6 @@
     margin-top: 40px;
     margin-left: 60px;
     margin-right: 60px;
-    border: solid 1px black;
 }
 
 .banner-1 {
@@ -92,4 +91,27 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 20vh;
+    border: 2px dashed #888888;
+    border-radius: 12px;
+}
+
+.data-p {
+    color: #49596D;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.data-h5 {
+    font-size: 22px;
+    color: #5345bf;
 }
