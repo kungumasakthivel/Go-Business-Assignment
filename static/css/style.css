@@ -42,7 +42,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 
 .heading-top-bar-2 {
@@ -60,4 +60,36 @@
     background-color: #706FE5;
     border-radius: 12px;
     border-style: none;
+}
+
+.banner-container {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: solid 1px black;
+}
+
+.banner-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    margin-bottom: 20px;
+
+}
+
+.b1 {
+    font-size: 16px;
+    width: 18vw;
+    height: 14vh;
+    color: white;
+    background-image: linear-gradient(322.23deg, #4776E6 10%, #8E54E9 100%);
+    border: solid black 1px;
+    border-radius: 4px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
