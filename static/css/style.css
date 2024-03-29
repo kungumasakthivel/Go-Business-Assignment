@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.top-bar-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    border: solid 1px black;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 555px;
+}
+
+.button-tryfree {
+    width: 178px;
+    height: 40px;
+    background-color: #706FE5;
+    color: white;
+    border-radius: 12px;
+    border-style: none;
+}
